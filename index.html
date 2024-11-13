@@ -1,14 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Multigraf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para o cabeçalho com imagem */
+        .header-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center; /* Alinha verticalmente a imagem e o título */
+            text-align: left;
+        }
+
+        .profile-section img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-right: 20px; /* Espaço entre a imagem e o título */
+        }
+
+        .profile-section h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .profile-section p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .portfolio-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-item h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .portfolio-item a img {
+            transition: transform 0.3s;
+        }
+
+        .portfolio-item a:hover img {
+            transform: scale(1.05);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .doodles {
+            text-align: center;
+        }
+
+        .doodles img {
+            width: 100%;
+            max-width: 500px;
+            object-fit: contain;
+        }
+
+        /* Estilo para a imagem final */
+        .final-section {
+            position: relative;
+            text-align: center;
+        }
+
+        .final-image {
+            width: 100%;
+            max-width: 800px;
+            object-fit: cover;
+        }
+
+        /* Estilo para os ícones sociais sobre a imagem */
+        .social-icons {
+            position: absolute;
+            bottom: 20px; /* Distância da parte inferior da imagem */
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover img {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
 <body>
+    <div class="container">
+        <header>
+            <!-- Imagem de cabeçalho -->
+            <img src="https://i.pinimg.com/736x/bd/7b/d2/bd7bd2360e660527f54242d485db9fd4.jpg" alt="Imagem de cabeçalho" class="header-image">
+        </header>
+        <div class="profile-section">
+            <img src="https://i.pinimg.com/736x/6f/50/8e/6f508e18cb4d95f722210241424b11f0.jpg" alt="Imagem de perfil">
+            <div>
+                <h2>Matheus Barros</h2>
+                <p>Prazer, sou Matheus, tenho 23 anos e sou estudante de bacharelado em Design.</p>
+                <p>Trabalho em três áreas principais: Design Gráfico, Videomaker e Design de Produto. No design gráfico, crio peças visuais, desenvolvo identidades visuais e trabalho com 3D, animação e ilustração. Como videomaker, realizo as gravações, cuido do equipamento e sou responsável pela edição dos vídeos. Já no design de produto, produzo desenhos técnicos, crio a visualização dos objetos em 3D e faço a curadoria dos materiais utilizados nas peças.</p>
+            </div>
+        </div>
 
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
+        <!-- Somente duas imagens e projetos no começo -->
 
+        <div class="portfolio-item">
+            <a href="https://link-projeto-grafico.com" target="_blank">
+                <img src="https://i.pinimg.com/736x/88/fc/1d/88fc1db4de856ad506d9bc6bf5b7aed0.jpg" alt="Projeto gráfico">
+            </a>
+            <h3>Projeto Gráfico</h3>
+            <p>Um estudo gráfico que explora padrões e repetição visual.</p>
+            <a href="https://www.linkedin.com/in/matheus-oliveira-510395293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="button">Saiba Mais</a>
+        </div>
+        
+        <!-- Projeto de Produto -->
+         <div class="portfolio-item">
+            <a href="https://link-projeto-grafico.com" target="_blank">
+                <img src="https://i.pinimg.com/736x/c9/54/6b/c9546b03153e91e1ce75ff753f9863cb.jpg" alt="Projeto gráfico">
+            </a>
+            <h3>Projeto de Produto</h3>
+            <p>Desenvolvimento de produto inovador com foco em funcionalidade e design minimalista.</p>
+            <a href="https://www.linkedin.com/in/matheus-oliveira-510395293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="button">Saiba Mais</a>
+        </div>
+
+        <!-- Imagem final com ícones sociais sobrepostos -->
+        <div class="final-section">
+            <img src="https://i.pinimg.com/736x/4f/1b/6b/4f1b6b10beff29b3b0e4b3e97383f637.jpg" alt="Imagem final do portfólio" class="final-image">
+
+            <!-- Ícones sociais sobre a imagem -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/seu-perfil-linkedin" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.behance.net/seu-perfil-behance" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="Behance">
+                </a>
+                <a href="https://www.instagram.com/seu-perfil-instagram" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
 
