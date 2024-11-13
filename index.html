@@ -25,7 +25,6 @@
             margin-bottom: 20px;
         }
 
-        /* Estilo para o cabeçalho com imagem */
         .header-image {
             width: 100%;
             max-height: 400px;
@@ -34,7 +33,7 @@
 
         .profile-section {
             display: flex;
-            align-items: center; /* Alinha verticalmente a imagem e o título */
+            align-items: center;
             text-align: left;
         }
 
@@ -43,7 +42,7 @@
             width: 250px;
             height: 250px;
             object-fit: cover;
-            margin-right: 20px; /* Espaço entre a imagem e o título */
+            margin-right: 20px;
         }
 
         .profile-section h2 {
@@ -110,7 +109,6 @@
             object-fit: contain;
         }
 
-        /* Estilo para a imagem final */
         .final-section {
             position: relative;
             text-align: center;
@@ -122,10 +120,9 @@
             object-fit: cover;
         }
 
-        /* Estilo para os ícones sociais sobre a imagem */
         .social-icons {
             position: absolute;
-            bottom: 20px; /* Distância da parte inferior da imagem */
+            bottom: 20px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
@@ -145,13 +142,11 @@
         .social-icons a:hover img {
             transform: scale(1.1);
         }
-
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <!-- Imagem de cabeçalho -->
             <img src="https://i.pinimg.com/736x/bd/7b/d2/bd7bd2360e660527f54242d485db9fd4.jpg" alt="Imagem de cabeçalho" class="header-image">
         </header>
         <div class="profile-section">
@@ -159,11 +154,9 @@
             <div>
                 <h2>Matheus Barros</h2>
                 <p>Prazer, sou Matheus, tenho 23 anos e sou estudante de bacharelado em Design.</p>
-                <p>Trabalho em três áreas principais: Design Gráfico, Videomaker e Design de Produto. No design gráfico, crio peças visuais, desenvolvo identidades visuais e trabalho com 3D, animação e ilustração. Como videomaker, realizo as gravações, cuido do equipamento e sou responsável pela edição dos vídeos. Já no design de produto, produzo desenhos técnicos, crio a visualização dos objetos em 3D e faço a curadoria dos materiais utilizados nas peças.</p>
+                <p>Trabalho em três áreas principais: Design Gráfico, Videomaker e Design de Produto...</p>
             </div>
         </div>
-
-        <!-- Somente duas imagens e projetos no começo -->
 
         <div class="portfolio-item">
             <a href="https://link-projeto-grafico.com" target="_blank">
@@ -173,9 +166,8 @@
             <p>Um estudo gráfico que explora padrões e repetição visual.</p>
             <a href="https://www.behance.net/matheusoliveira280" class="button">Saiba Mais</a>
         </div>
-        
-        <!-- Projeto de Produto -->
-         <div class="portfolio-item">
+
+        <div class="portfolio-item">
             <a href="https://link-projeto-grafico.com" target="_blank">
                 <img src="https://i.pinimg.com/736x/c9/54/6b/c9546b03153e91e1ce75ff753f9863cb.jpg" alt="Projeto gráfico">
             </a>
@@ -184,11 +176,8 @@
             <a href="https://www.behance.net/matheusoliveira280" class="button">Saiba Mais</a>
         </div>
 
-        <!-- Imagem final com ícones sociais sobrepostos -->
         <div class="final-section">
             <img src="https://i.pinimg.com/736x/4f/1b/6b/4f1b6b10beff29b3b0e4b3e97383f637.jpg" alt="Imagem final do portfólio" class="final-image">
-
-            <!-- Ícones sociais sobre a imagem -->
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/matheus-oliveira-510395293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
@@ -201,7 +190,17 @@
                 </a>
             </div>
         </div>
-
     </div>
+
+    <!-- Rodapé -->
+    <footer style="background-color: #000; color: #fff; padding: 30px 0; text-align: center; font-size: 1rem;">
+        <div class="container">
+            <p>&copy; 2024 Matheus Barros. Todos os direitos reservados.</p>
+            <div style="margin: 20px 0;">
+                <!-- Adicione links de política de privacidade ou redes sociais aqui, se necessário -->
+            </div>
+            <p>Site criado por Matheus Barros, transformando ideias em realidade!</p>
+        </div>
+    </footer>
 </body>
 </html>
